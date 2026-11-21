@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  address: ${SERVER_ADDRESS:127.0.0.1}
+  tomcat:
+    threads:
+      max: 32
+    max-connections: 200
+    connection-timeout: 10s
+spring:
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+      accept-float-as-int: false
+app:
+  cors-origins: ${CORS_ORIGINS:http://localhost:5173,http://127.0.0.1:5173}
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

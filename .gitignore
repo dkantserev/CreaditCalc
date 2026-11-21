@@ -1,0 +1,77 @@
+# Dependencies and build output
+node_modules/
+target/
+dist/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+!maven-wrapper.jar
+*.tsbuildinfo
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.local
+application-local.yml
+application-local.yaml
+application-local.properties
+.npmrc
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Logs, caches and generated test results
+*.log
+logs/
+.cache/
+.npm/
+.vite/
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+/evidence/
+
+# Temporary files and local archives
+/tmp/
+/temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
